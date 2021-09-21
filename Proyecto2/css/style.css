@@ -1,0 +1,72 @@
+
+
+}
+body{
+    background-color: white;
+
+}
+.areaPrincipal { /*asi se define una clase*/
+    width: 100%;
+    height: auto;
+    opacity: 0.9;/*opacidad de la imagen*/
+    
+}
+#encabezado {
+    background: #d0e6f8;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    background-image: url("../imagenes/1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.piePagina{
+    width: 100%;/*ancho*/
+    height: 100px;/*alto*/
+    background: white;/*color de fondo*/
+    color: black;/*color de letra dentro de la clase*/
+    bottom: 0;/*espacio de separacion parte inferior*/
+    position: relative;
+    left: 0;/*alineacion de contenidos a la izquierda*/
+    text-align: center;
+    margin: auto;
+}
+#areaPrincipal div table tr td{
+    align-content: center;
+
+}
+#menu{
+    height: 100px;
+    position: relative;
+    top: 0px;
+    
+
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+li{
+    float: left;
+}
+li a:hover{
+    background-color: black;
+}
+#datos{
+    width: 100%;
+    background-color: red;
+    height: auto;
+    margin: auto;
+    opacity: 1;
+    color: black;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#encabezado div {
+    text-align: left;
+  
+
+}
